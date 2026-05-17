@@ -1,41 +1,30 @@
-# Project Brief
+# Project Brief: [Insert Core Product Name]
 
-## Project Essence
-TBD
+## 1. Core Intent & Value Proposition
+- **Product Vision:** [Provide a 1-2 sentence description of what this product solves and for whom].
+- **Target Audience:** [e.g., Enterprise DevOps teams, B2C mobile users].
+- **Key Metric of Success:** [e.g., Sub-second data replication, processing 10k req/sec].
 
-### Core Problem
-TBD
+## 2. Language & Documentation Policy
+*Meta-Agent uses these rules to enforce precise linguistic constraints across all generated artifacts.*
+- **System Documentation Language:** [e.g., Russian for analytics, English for architecture ADRs].
+- **Source Code Comments & Logs:** [e.g., Strict English Only, No native language comments allowed].
+- **Git Commit Messages:** [e.g., Conventional Commits standard in English].
+- **Task Tracker / Backlog Interaction:** [e.g., Russian/English bilingual allowed].
 
-### Business Goal
-- TBD
-- TBD
+## 3. Global Technical Stack Constraints
+*Meta-Agent uses this section to inject appropriate coding skills into Programmer Sub-agents.*
+- **Backend Language & Ecosystem:** [e.g., Go 1.26+, Java 21/Spring Boot].
+- **Frontend Framework:** [e.g., TypeScript, Next.js (App Router), TailwindCSS].
+- **Primary Database Engine:** [e.g., PostgreSQL (relational), MongoDB (document)].
+- **Message Broker / Event Streaming:** [e.g., Apache Kafka, RabbitMQ, None].
 
-### Success Criteria 
-TBD
+## 4. High-Level Domain Boundaries (DDD Contexts)
+*Briefly list the intended bounded contexts to feed the C4 Architect Agent.*
+1.  **[Context Alpha]:** [e.g., Identity and Access Management (IAM)].
+2.  **[Context Beta]:** [e.g., Order Processing and Billing State Engine].
+3.  **[Context Gamma]:** [e.g., Third-party Notification Dispatcher].
 
-## Context Window Management Strategy
-
-### LLM Limitations and Solution
-**Context Window Constraints:**
-- Context limit: ~128K tokens (~15,000-20,000 lines practical limit)
-- Risk: AI hallucinations increase with large context windows
-
-## Technical Constraints
-TBD 
-
-### Quality Requirements
-- All tests must pass
-- Single-command deployment
-- No undocumented manual steps
-
-## Success Metrics
-
-### Technical Metrics
-- Test coverage percentage (target: 90%+)
-
-### Process Metrics
-- TBD
-
-## References
-
-- **Universal Process**: `process-overview.md` for AI-native SDLC framework
+## 5. Operational Environment Specifications
+- **Local Dev Sandbox Engine:** [e.g., Docker Compose, Minikube].
+- **Target Cloud Infrastructure:** [e.g., AWS (EKS), Bare-Metal K8s, On-Premises].

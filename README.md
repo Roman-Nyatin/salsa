@@ -58,10 +58,21 @@ We aim for **5000+ stars** and a vibrant ecosystem.
 
 ---
 
-## 🏁 Quick Start
-1. Click **"Use this template"**.
-2. Clone your new repo.
-3. Define your first feature in `.backlog/features/` and let the agents work (more details will be provided later).
+## 🏁 Quick Start (Launch in 2 Minutes)
+
+Fast-ASDLC uses a **self-bootstrapping engine** powered by the **Meta-Agent**. You don't need to install heavy orchestrators—just copy a single prompt to initialize your environment.
+
+### 1. Create and Clone
+1. Click the **"Use this template"** button at the top of this repository.
+2. Clone your newly created repository to your local machine.
+
+### 2. Trigger the Meta-Agent Setup
+3. Open the cloned repository in your preferred AI-assisted editor (e.g., **Cursor**, **VS Code with Cline**, or **Windsurf**).
+4. Open your AI Assistant Chat sidebar, copy the **entire content** of the file `/.agents/fast-asdlc/BOOTSTRAP-PROMPT.md`, and paste it into the chat.
+5. The **Meta-Agent** will wake up and guide you through an interactive chat interview to configure your specific tech stack, local LLM models (Qwen/GLM), and language policies.
+
+### 3. Deep-Dive & Advanced Setup
+For a complete guide on how to hook up **MCP servers**, configure automated quality gates, and pass your first feature request to the Analyst Agent, see the comprehensive [Onboarding Playbook (ONBOARDING.md)](/.agents/fast-asdlc/ONBOARDING.md).
 
 ---
 
