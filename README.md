@@ -1,6 +1,6 @@
 # SALSA 💃
 
-**Enterprise Secure AI-Native Operating System for Agile at Scale. Powered by fast-asdlc.**
+**Enterprise Secure AI-Native Operating System for Agile at Scale. Powered by [fast-asdlc](https://github.com/shd-git/fast-asdlc).**
 
 **Reduce Enterprise TTM by 5x with a secure, AI-native Agentic SDLC framework.**  
 *Open-source | Open-Model Native | Human-in-the-loop | Architecturally Rigorous*
