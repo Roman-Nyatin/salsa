@@ -48,6 +48,10 @@ The core engine leverages **fast-asdlc** concepts to treat methodology, rules, a
 * Configured local or private LLM endpoints (recommended: kimi k2).
 * Installed Model Context Protocol (MCP) server for enterprise integrations (Jira, Git, Confluence).
 
+### Quick Setup
+- [Development Setup](DEVELOPMENT.md) — Configure AI models and OpenCode
+- [Contributing](CONTRIBUTING.md) — Process for submitting changes
+
 ## ⚖️ Legal Disclaimer
 
 *SALSA is an independent, open-source project built on top of the fast-asdlc engine. SAFe® and Scaled Agile Framework® are registered trademarks of Scaled Agile, Inc. This project is not affiliated with, endorsed, or sponsored by Scaled Agile, Inc. It serves as an autonomous, technological implementation layer developed independently by the agile community.*
