@@ -1,0 +1,31 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "./"],
+      "description": "Filesystem access for SALSA project (restricted to workspace)"
+    }
+  },
+  "agentRoles": {
+    "meta-agent": {
+      "allowedPaths": ["/.agents/", "/.clinerules", "/.backlog/"],
+      "readOnlyPaths": []
+    },
+    "analyst": {
+      "allowedPaths": ["/.backlog/", "/docs/domain/"],
+      "readOnlyPaths": ["/.agents/memory-bank/"]
+    },
+    "architect": {
+      "allowedPaths": ["/docs/architecture/", "/docs/specs/"],
+      "readOnlyPaths": ["/docs/domain/", "-.agents/memory-bank/"]
+    },
+    "programmer": {
+      "allowedPaths": ["/src/", "/tests/", "/infra/"],
+      "readOnlyPaths": ["/docs/specs/", "/docs/domain/", "-.agents/memory-bank/"]
+    },
+    "qa": {
+      "allowedPaths": ["/tests/"],
+      "readOnlyPaths": ["/docs/specs/", "/docs/domain/", "/src/", "/infra/", "-.agents/memory-bank/"]
+    }
+  }
+}

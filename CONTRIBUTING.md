@@ -1,5 +1,8 @@
 # Contributing to SALSA
 
+## 🛠 Development Setup
+Before contributing: [Development Setup](DEVELOPMENT.md)
+
 First of all, thank you for considering contributing to SALSA!
 
 ## 🏛 Our Philosophy: BDFL & Quality First
