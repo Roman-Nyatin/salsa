@@ -1,5 +1,34 @@
 # Decision Log
 
+## 2026-06-29 — PM Agent WBS Preparation Workflow Created
+
+### Context
+Executing `.backlog/002-pm-agent-creation.md` - creating PM-agent workflow for WBS preparation.
+
+### Decision
+Created separate workflow file `.agents/workflows/pm-wbs-preparation.md` instead of extending existing `pm-task-resource-matching.md`.
+
+### Rationale
+- **Separation of concerns:** WBS preparation (Phase 1-5) is conceptually different from task-resource matching (Greedy + Local Search algorithm)
+- **Sequential flow:** WBS must be completed and approved before resource matching begins
+- **Clear handoff:** Each workflow has explicit inputs/outputs and HITL gates
+- **Language compliance:** Workflow file in English (per meta-agent rules), WBS output in `.backlog/` supports Russian (per project-brief)
+
+### WBS Scope Parameters
+- **Timeline:** 8 weeks
+- **Domain:** Agentic SAFe (SAFe Agentic Operating System)
+- **WBS Level:** L3 (deliverables)
+- **Excludes:** Already completed onboarding (`.backlog/001-fast-sdlc-onboarding.md`)
+
+### Files Created
+- `.agents/workflows/pm-wbs-preparation.md` — WBS preparation workflow
+
+### Files Updated
+- `.agents/memory-bank/progress.md` — added PM workflows to completed list
+- `.agents/memory-bank/active-context.md` — will be updated after task completion
+
+---
+
 ## 2026-06-29 — OpenCode Agent Provisioning with Redirect Files
 
 ### Context

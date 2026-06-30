@@ -2,14 +2,17 @@
 
 ## Current System State
 - **Phase:** Phase 0 COMPLETED — Fast-ASDLC onboarding finished. Ready for Phase 1 (Analysis & Design).
-- **Status:** System infrastructure provisioned. Agent workforce configured.
-- **Last Action:** OpenCode agent provisioning completed with redirect files in `.clinerules/`.
+- **Status:** System infrastructure provisioned. Agent workforce configured. PM Agent workflows created.
+- **Last Action:** Created PM workflow for WBS preparation (`.agents/workflows/pm-wbs-preparation.md`).
 
 ## System Readiness
 ✅ **Project Brief:** `/agents/memory-bank/project-brief.md` — Product vision, language policy, domain boundaries defined
 ✅ **Process Overview:** `/agents/memory-bank/process-overview.md` — SDLC process, role-to-tool matrix documented
 ✅ **Agent Rules:** All roles (Meta, Analyst, Architect, Programmer, QA) configured
 ✅ **Agent Workflows:** Step-by-step execution sequences created for all roles
+✅ **PM Agent Workflows:**
+  - `pm-wbs-preparation.md` — WBS creation (8-week Agentic SAFe scope)
+  - `pm-task-resource-matching.md` — task-resource matching (Greedy + Local Search)
 ✅ **Tool Configuration:** `.clinerules` and `mcp-settings.json` provisioned
 
 ## Next Actions
